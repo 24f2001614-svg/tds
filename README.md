@@ -1,6 +1,6 @@
 # q-git-time-travel
 
-Version 1.23.6
+Version 2.26.9
 
 A sample project for testing.
 
