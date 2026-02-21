@@ -1,6 +1,5 @@
-FROM python:3.9-slim
-
+FROM python:3.11-slim
 WORKDIR /app
 COPY . .
-
-CMD ["python", "-c", "print('Hello, TDS!')"]
+RUN pip install --no-cache-dir requests pandas fastapi
+CMD ["python", "main.py"]

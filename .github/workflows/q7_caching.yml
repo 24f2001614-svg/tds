@@ -1,0 +1,14 @@
+name: Q7 Caching
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Cache Primes
+        uses: actions/cache@v4
+        with:
+          path: prime-numbers
+          key: cache-5b99319
+      - name: prime-cache-5b99319
+        run: echo "Cache check step"
