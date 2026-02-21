@@ -5,7 +5,7 @@ A Cloudflare Worker that processes POST requests and returns transformed (revers
 ## Endpoint
 
 ```
-POST https://tds-ga2-q15.tds-23f3003225.workers.dev/data
+POST https://tds-ga2-q15.tds-24f2001614.workers.dev/data
 ```
 
 ## Request Format
@@ -28,7 +28,7 @@ POST https://tds-ga2-q15.tds-23f3003225.workers.dev/data
 ```json
 {
   "reversed": ...,
-  "email": "23f3003225@ds.study.iitm.ac.in"
+  "email": "24f2001614@ds.study.iitm.ac.in"
 }
 ```
 
@@ -49,7 +49,7 @@ node test.js
 Or via curl:
 
 ```bash
-curl -X POST https://tds-ga2-q15.tds-23f3003225.workers.dev/data \
+curl -X POST https://tds-ga2-q15.tds-24f2001614.workers.dev/data \
   -H "Content-Type: application/json" \
   -d '{"type":"array","value":[59,69,14,1,4,85,13]}'
 ```
@@ -57,5 +57,5 @@ curl -X POST https://tds-ga2-q15.tds-23f3003225.workers.dev/data \
 Expected response:
 
 ```json
-{"reversed":[13,85,4,1,14,69,59],"email":"23f3003225@ds.study.iitm.ac.in"}
+{"reversed":[13,85,4,1,14,69,59],"email":"24f2001614@ds.study.iitm.ac.in"}
 ```

@@ -23,4 +23,4 @@ jobs:
       with:
         context: .
         push: true
-        tags: aloktripathi1/q-docker-hub-image:23f3003225
+        tags: aloktripathi1/q-docker-hub-image:24f2001614

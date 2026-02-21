@@ -6,7 +6,7 @@ const data = JSON.stringify({
 });
 
 const opts = {
-    hostname: "tds-ga2-q15.tds-23f3003225.workers.dev",
+    hostname: "tds-ga2-q15.tds-24f2001614.workers.dev",
     path: "/data",
     method: "POST",
     headers: {
